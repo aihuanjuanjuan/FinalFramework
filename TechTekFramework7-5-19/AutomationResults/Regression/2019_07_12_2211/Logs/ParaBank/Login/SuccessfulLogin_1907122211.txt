@@ -1,0 +1,35 @@
+Request:
+
+Endpoint is :: https://parabank.parasoft.com/parabank/services/ParaBank
+
+Headers:
+{}
+
+Request body: 
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.parabank.parasoft.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:login>
+         <ser:username>user212</ser:username>
+         <ser:password>user212</ser:password>
+      </ser:login>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+************************************************************************************
+Response:
+
+Response status code:
+HTTP/1.1  200 OK
+Headers:
+Server : cloudflare
+CF-RAY : 4f57ba93dea5cf04-IAD
+Connection : keep-alive
+Set-Cookie : __cfduid=db508e78ff6bb1f48f275dd4abac2dd9f1562983913; expires=Sun, 12-Jul-20 02:11:53 GMT; path=/; domain=.parasoft.com; HttpOnly
+Content-Length : 499
+Date : Sat, 13 Jul 2019 02:11:54 GMT
+Content-Type : text/xml;charset=UTF-8
+Expect-CT : max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Response body:
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:loginResponse xmlns:ns2="http://service.parabank.parasoft.com/"><ns2:customerId><id>15986</id><firstName>Sami</firstName><lastName>Sabir-idrissi</lastName><address><street>3100 South Manchester Street</street><city>Falls Church</city><state>Virginia</state><zipCode>Jenkins</zipCode></address><phoneNumber>5715503399</phoneNumber><ssn>4324234</ssn></ns2:customerId></ns2:loginResponse></soap:Body></soap:Envelope>

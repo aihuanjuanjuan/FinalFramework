@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite">
+
+
+	<test name="Mac Chrome Local regression test">
+
+
+		<parameter name="osType" value="mac"></parameter>
+		<parameter name="browserType" value="chrome"></parameter>
+		<parameter name="runLocal" value="true"></parameter>
+		<parameter name="useGrid" value="false"></parameter>
+		<parameter name="useAWS" value="false"></parameter>
+		<parameter name="useSauceLabs" value="false"></parameter>
+		<parameter name="accountStatus" value="ACTIVE"></parameter>
+
+
+		<classes>
+
+			<class name="Runners.Runner"></class>
+
+		</classes>
+
+	</test>
+
+<!-- 	<test name="Windows Fire Fox Local regression test">
+
+
+		<parameter name="osType" value="win"></parameter>
+		<parameter name="browserType" value="firefox"></parameter>
+		<parameter name="runLocal" value="true"></parameter>
+		<parameter name="useGrid" value="false"></parameter>
+		<parameter name="useAWS" value="false"></parameter>
+		<parameter name="useSauceLabs" value="false"></parameter>
+		<parameter name="accountStatus" value="ACTIVE"></parameter>
+
+
+		<classes>
+
+			<class name="Runners.Runner"></class>
+
+		</classes>
+
+	</test> -->
+	
+	<!-- 	<test name="Windows Chrome Local regression test">
+
+
+		<parameter name="osType" value="win"></parameter>
+		<parameter name="browserType" value="Chrome"></parameter>
+		<parameter name="runLocal" value="true"></parameter>
+		<parameter name="useGrid" value="false"></parameter>
+		<parameter name="useAWS" value="false"></parameter>
+		<parameter name="useSauceLabs" value="false"></parameter>
+		<parameter name="accountStatus" value="ACTIVE"></parameter>
+
+
+		<classes>
+
+			<class name="Runners.Runner"></class>
+
+		</classes>
+
+	</test> -->
+
+
+
+
+</suite>

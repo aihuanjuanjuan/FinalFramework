@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Suite]">
+  <test name="Regres(failed)">
+    <classes>
+      <class name="Runners.Runner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeSuite"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Runners.Runner -->
+    </classes>
+  </test> <!-- Regres(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

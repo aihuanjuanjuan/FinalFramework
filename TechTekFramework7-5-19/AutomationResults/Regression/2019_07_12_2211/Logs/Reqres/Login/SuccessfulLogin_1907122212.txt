@@ -1,0 +1,31 @@
+Request:
+
+Endpoint is :: https://reqres.in/api/login
+
+Headers: 
+{Content-Type=application/json}
+
+Response body : 
+{"password":"cityslicka","email":"eve.holt@reqres.in"}
+
+
+************************************************************************************
+Response:
+
+Response Headers : 
+HTTP/1.1  200 OK
+Date=Sat, 13 Jul 2019 02:12:00 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=29
+Connection=keep-alive
+Set-Cookie=__cfduid=d059e412b9787584838e7be9cf8deec461562983920; expires=Sun, 12-Jul-20 02:12:00 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+X-Powered-By=Express
+Access-Control-Allow-Origin=*
+Etag=W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+Via=1.1 vegur
+Expect-CT=max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server=cloudflare
+CF-RAY=4f57babd6febcf50-IAD
+
+Response body : 
+{"token":"QpwL5tke4Pnpja7X4"}
